@@ -1,0 +1,20 @@
+{
+    "main": ".open-next/worker.js",
+    "name": "my-app",
+    "compatibility_date": "2024-09-23",
+    "compatibility_flags": [
+      "nodejs_compat"
+    ],
+    "assets": {
+      "directory": ".open-next/assets",
+      "binding": "ASSETS"
+    },
+
+    
+    "kv_namespaces": [
+        {
+          "binding": "currency-conversion-app-NEXT_CACHE_WORKERS_KV",
+          "id": "ec86a7b081454936b38ebf3830ca51d3"
+        }
+    ]
+  }

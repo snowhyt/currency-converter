@@ -62,7 +62,8 @@ export default function CurrencyConverter() {
                 setExchangeRates(data.rates);
 
             } catch (error) {
-                setError("Error in fetching exchange rates.")
+                setError(`${error}. Error in fetching exchange rates.`)
+
             } finally {
                 setLoading(false);
             }
