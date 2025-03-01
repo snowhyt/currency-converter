@@ -21,6 +21,11 @@ import {
     SelectValue,
 } from "@/components/ui/select"
 
+
+
+export const runtime = "edge";
+
+
 type ExchangeRates = {
     [key: string]: number;
 };
@@ -103,7 +108,7 @@ export default function CurrencyConverter() {
     //function that clears input
     function handleReset(){
             setConvertedAmount("0.00");
-            setAmount(" ");
+            setAmount(null);
     };
     
 

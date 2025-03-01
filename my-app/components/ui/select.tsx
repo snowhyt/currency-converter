@@ -6,6 +6,11 @@ import { CheckIcon, ChevronDownIcon, ChevronUpIcon } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 
+
+export const runtime = "edge";
+
+
+
 function Select({
   ...props
 }: React.ComponentProps<typeof SelectPrimitive.Root>) {

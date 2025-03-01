@@ -1,6 +1,8 @@
 //import Image from "next/image";
 import CurrencyApp from "@/components/ui/currency-converter";
 
+export const runtime = "edge";
+
 
 export default function Home() {
 
