@@ -103,7 +103,7 @@ export default function CurrencyConverter() {
     //function that clears input
     function handleReset(){
             setConvertedAmount("0.00");
-            setAmount(" ");
+            setAmount(null);
     };
     
 
@@ -205,7 +205,7 @@ export default function CurrencyConverter() {
                                     <div className="flex flex-col space-y-1.5">
                                      {/*Input Items*/}
                                         <Label htmlFor="convertedAmount">Computed Result:</Label>
-                                        <div className="text-2xl font-bold">{convertedAmount}</div>
+                                        <div className="text-2xl font-bold">{convertedAmount} <span className="text-lg font-medium text-black opacity-30">{toCurrency}</span></div>
 
                                     </div>
                                 </div>
